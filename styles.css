@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    background-color: #F6F8FE;
+    width: 100%;
+    height: 100%; /* Cambia esto */
+    overflow-x: hidden;
+    font-family: 'Quicksand', sans-serif;
+  }
+h1 {
+  font-weight:normal;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 16px;
+  font-family: 'Quicksand', sans-serif;
+  color: #fff;
+  font-size: 35px;
+  width: 100%;
+}
+h2 {
+  font-weight:normal;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 16px;
+  font-family: 'Quicksand', sans-serif;
+  color: #fff;
+  opacity:  .7;
+  font-size: 18px;
+}
+p {
+  font-weight:normal;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 5px;
+  font-family: 'Quicksand', sans-serif;
+  color: #4f4f4f;
+  font-size: 12px;
+}
+img {
+  overflow: hidden;
+  filter: grayscale(20%) contrast(120%);
+  transition: all 1.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.main-container {
+  position: absolute;
+  width: 100%;
+  height: 1500px;
+  overflow-x: hidden;
+  background-color: #fff;
+}
+.background {
+  margin: auto;
+  position: absolute;
+  top: -430px;
+  left: 0;
+  right: 0;
+  width: 2500px;
+}
+.background:hover {
+  filter: grayscale(100%) contrast(120%);
+transition: all 1.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.portfolio-container {
+  margin: auto;
+  position: absolute;
+  top: 300px;
+  left: 0;
+  right: 0;
+  width: 670px;
+  height: 1000px;
+  background-color: #fff;
+  box-shadow: 12px 0 38px -4px rgba(142, 142, 142, 0.1), -12px 0 38px -4px rgba(142, 142, 142, 0.1);
+}
+.line {
+  margin: auto;
+  position: absolute;
+  top: 275px;
+  left: 0;
+  right: 0;
+  width: 2px;
+  height: 70px;
+  background-color: #CEB8AA
+}
+.h1-container {
+  margin: auto;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 150px;
+}
+.h2-container {
+  margin: auto;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  right: 0;
+  width: 600px;
+  height: 150px;
+}
+.p-container {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 710px;
+  left: 0;
+  right: 0;
+  width: 600px;
+  height: 150px;
+}
+.photography-portfolio {
+  margin: auto;
+  position: absolute;
+  top: 320px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 520px;
+  height: 1000px;
+}
+.img-left {
+  width: 230px;
+  height: 230px;
+  float: left;
+  margin-bottom: 50px;
+  filter: grayscale(100%) contrast(120%);
+}
+.img-right {
+  width: 230px;
+  height: 230px;
+  float: right;
+  margin-bottom: 50px;
+  filter: grayscale(100%) contrast(120%);
+}
+.img-left:hover, .img-right:hover {
+  filter: none;
+  box-shadow: 1px 1px 10px 0 rgba(0,0,0,.1);
+  transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
